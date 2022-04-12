@@ -1,8 +1,8 @@
 # PT_codes
 ## Differents codes for our PT
 For each code, if you want to use a video instead of a webcam, you simply have to replace the argument of the cv2.VideoCapture() function by the path of your video. For exemple :
-- cap = cv2.VideoCapture(2)     allows to use the webcam 2
-- cap = cv2.VideoCapture("/home/user/Video/example.mp4")      allows to use the video example.mp4
+- cap = cv2.VideoCapture(2) allows to use the webcam 2
+- cap = cv2.VideoCapture("/home/user/Video/example.mp4") allows to use the video "example.mp4" in the folder "Video"
 
 ### color.py 
 The code for the color recognition without the ROS Part.
