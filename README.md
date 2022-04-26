@@ -12,3 +12,6 @@ The codes for automatic (qrcal) and manual (scale) calibration. Must be used wit
 
 ### picker.py and shape.py
 The codes for automatic (shape) and manual (picker) calibration. Must be used with ROS2 and will run after the calibration is done.
+
+### position.py
+Detect a piece (as a black rectangle) and send to a ROS topic its coordinates in a new referencial given by two QR Codes.
